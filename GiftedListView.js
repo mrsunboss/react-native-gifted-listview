@@ -269,7 +269,6 @@ var GiftedListView = createReactClass({
   },
 
   _updateRows(rows = [], options = {}) {
-    console.log('_updateRows')
     if (rows !== null) {
       this._setRows(rows);
       if (this.props.withSections === true) {
@@ -325,7 +324,6 @@ var GiftedListView = createReactClass({
   },
 
   render() {
-    // console.log('render',)
     return (
       <ListView
         ref="listview"
